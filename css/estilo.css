@@ -1,0 +1,274 @@
+*{
+    margin: 0%;
+    padding: 0;
+}
+h1,h2,h3,h4{
+    color: rgb(233, 134, 191);
+    font-family:'Carrois Gothic', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+@font-face {
+    font-family:'Carrois Gothic', sans-serif;
+    src: url(../Assets/fonts/CarroisGothic-Regular.ttf);
+}
+body{
+    background-image: url(../Assets/Img/fondooooo.webp);
+}
+h3{
+    font-size: 2.2rem;
+}
+#top{
+    text-align: center;
+}
+.logo{
+    width: 150px;
+    border-radius: 40%;
+    margin-top: 10px;
+    border: 0.3px;
+}
+nav{
+    text-align: center;
+}
+.menu{
+    font-family: 'Carrois Gothic', sans-serif;
+    border-radius: 20px;
+    list-style-type: none;
+    background-color: rgb(231, 138, 213);
+    padding: 0;
+    width: 50%;
+    margin: 20px auto;
+}
+.menu .item{
+    display: inline-block;
+    position: relative;
+    font-size: 1rem;
+    text-align: center;
+}
+.menu .submenu{
+    position: absolute;
+    display: none;
+}
+.menu .submenu .sub_i{
+    display: block;
+    font-size: 0.8rem;
+    padding: auto;
+}
+.menu .item a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 20px;
+}
+.menu .item a:hover{
+    color:white
+}
+.menu .item:hover .submenu{
+    display: block;
+    color: white
+}
+.menu .item:hover a{
+    background-color: rgb(249, 181, 239);
+    color: white;
+}
+.sectionindex{
+    background-image: url(../Assets/Img/Fondoprinc.jpeg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.sectionindex2{
+    margin: 10px;
+}
+.section3{
+    margin: 10px;
+}
+.wp{
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom: 0;
+}
+.Whatsapp{
+    width: 50px;
+    height: auto;
+}
+.redes{
+    position: relative;
+    text-align: center;
+}
+.icon-redes{
+    width: 50px;
+    height: auto;
+}
+form{
+    margin: 20px auto;
+    width: 500px;
+    height: 300px;
+}
+.Entrar{
+    text-align: center;
+}
+.registrarse{
+    font-size: 10px;
+}
+.boton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 225px;
+    width: 20px;
+}
+label{
+    display: inline-block;
+    width: 95px;
+    text-align: right;
+}
+input, textarea, select{
+    font: 1rem sans-serif;
+    width: 300px;
+}
+.botentrar{
+    background-color: rgb(226, 144, 43);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30px;
+    height: 20px;
+    margin-left: 225px;
+}
+.botregistrarse{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 30px;
+    margin-left: 225px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.botoncolor{
+    background-color: rgb(211, 128, 194);
+}
+.botoncolor1{
+    background-color: rgb(211, 128, 194);
+}
+.botoncancelar{
+    margin-left: 10px;
+}
+.cuadrado{
+    width: 300px;
+    height: 50px;
+}
+.cuadrado1{
+    width: 300px;
+    height: 50px;
+}
+textarea{
+    vertical-align: top;
+    height: 5rem;
+}
+fieldset{
+    border-radius: 10px;
+    margin: auto;
+}
+.Mapa1 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+.Mapa2 img{
+    width: 300px;
+    height: 300px;
+    position: relative;
+    border-radius: 20px;
+    margin-left: 400px;
+}
+.maptex{
+    display: flex;
+    flex-direction: right top;
+    padding: 40px;
+}
+.maptex1{
+    display: flex;
+    flex-direction: right top;
+    padding: 40px;
+}
+.textosucu1 p{
+    line-height: 5px;
+    padding-left: 70px;
+}
+.textosucu2 p{
+    line-height: 5px;
+    padding-left: 70px;
+}
+p{
+    padding: 30px;
+    font-family: 'Carrois Gothic', sans-serif;
+}
+.semipermanente img{
+    width: 300px;
+    margin: 100px;
+    margin-bottom: 500px;
+    border-radius: 20px;
+}
+.textosemi{
+    display: flex;
+    flex-direction: right top;
+    margin-bottom: 30px;
+}
+.kapping img{
+    width: 300px;
+    margin: 100px;
+    border-radius: 20px;
+}
+.esculpidas img{
+    width: 300px;
+    margin: 100px;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+.nailart img{
+    width: 300px;
+    margin: 100px;
+    border-radius: 20px;
+}
+textarea{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.fotos{
+    position: relative;
+    text-align: center;
+    color: white;  
+    font-size: 30px;
+    flex-direction: row;
+    margin: 5px;
+}
+.fotos img{
+    border-radius: 20px;
+    width: 300px;
+    height: auto;
+}
+.ft{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(128, 128, 128, 0.401);
+}
+.contenedorFotos{
+    margin: 10px auto;
+    width: 75%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+}
