@@ -1,6 +1,7 @@
 *{
     margin: 0%;
     padding: 0;
+    box-sizing: border-box;
 }
 h1,h2,h3,h4{
     color: rgb(233, 134, 191);
@@ -8,12 +9,9 @@ h1,h2,h3,h4{
     padding: 20px;
     text-align: center;
 }
-@font-face {
-    font-family:'Carrois Gothic', sans-serif;
-    src: url(../Assets/fonts/CarroisGothic-Regular.ttf);
-}
 body{
     background-image: url(../Assets/Img/fondooooo.webp);
+    font-family: 'Carrois Gothic', sans-serif;
 }
 h3{
     font-size: 2.2rem;
@@ -21,56 +19,49 @@ h3{
 #top{
     text-align: center;
 }
+.logoWF{
+    display: flex;
+    justify-content: right;
+}
 .logo{
-    width: 150px;
+    height: 80px;
+    margin-top: 5px;
+    width: auto;
     border-radius: 40%;
-    margin-top: 10px;
     border: 0.3px;
 }
-nav{
+/* nav{
     text-align: center;
-}
-.menu{
+} */
+.menuN{
     font-family: 'Carrois Gothic', sans-serif;
     border-radius: 20px;
     list-style-type: none;
-    background-color: rgb(231, 138, 213);
-    padding: 0;
-    width: 50%;
-    margin: 20px auto;
+    background-color: rgba(231, 138, 212, 0.585);
+    display: flex;
+    justify-content: center;
+    padding: 0px;
 }
-.menu .item{
-    display: inline-block;
-    position: relative;
+.menuN .item{
     font-size: 1rem;
     text-align: center;
+    margin: 5px;
 }
-.menu .submenu{
-    position: absolute;
-    display: none;
-}
-.menu .submenu .sub_i{
-    display: block;
-    font-size: 0.8rem;
-    padding: auto;
-}
-.menu .item a{
+.menuN .item a{
     color: white;
     text-decoration: none;
     font-weight: bolder;
-    display: inline-block;
-    padding: 20px;
 }
-.menu .item a:hover{
+.menuN .item a:hover{
     color:white
 }
-.menu .item:hover .submenu{
-    display: block;
+.menuN .item:hover .submenu{
     color: white
 }
-.menu .item:hover a{
-    background-color: rgb(249, 181, 239);
+.menuN .item:hover a{
+    background-color: rgba(232, 82, 210, 0.88);
     color: white;
+    border-radius: 20px;
 }
 .sectionindex{
     background-image: url(../Assets/Img/Fondoprinc.jpeg);
@@ -105,11 +96,11 @@ nav{
     width: 50px;
     height: auto;
 }
-form{
+/* form{
     margin: 20px auto;
     width: 500px;
     height: 300px;
-}
+} */
 .Entrar{
     text-align: center;
 }
@@ -271,4 +262,8 @@ textarea{
     flex-wrap: wrap;
     padding: 5px;
     justify-content: center;
+}
+
+.nav-item a:hover{
+    color: rgb(235, 90, 206);
 }
