@@ -267,3 +267,10 @@ textarea{
 .nav-item a:hover{
     color: rgb(235, 90, 206);
 }
+.fotos{
+    opacity: .6;
+}
+.fotos:hover{
+    opacity: 1;
+    transform: scale(1.2, 1.2);
+}
