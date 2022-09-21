@@ -164,7 +164,7 @@ fieldset{
     border-radius: 10px;
     margin: auto;
 }
-.Mapa1 img{
+/* .Mapa1 img{
     width: 300px;
     height: 300px;
     position: relative;
@@ -195,7 +195,7 @@ fieldset{
 .textosucu2 p{
     line-height: 5px;
     padding-left: 70px;
-}
+} */
 p{
     padding: 30px;
     font-family: 'Carrois Gothic', sans-serif;
@@ -282,4 +282,7 @@ textarea{
 p{
     color: gray ;
 }
-
+.mapa{
+    width: 500px;
+    height: 500px;
+}
