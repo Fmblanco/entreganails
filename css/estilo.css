@@ -286,3 +286,15 @@ p{
     width: 500px;
     height: 500px;
 }
+.fotoopi img{
+    width: 200px;
+    margin-left:40%;
+    border-radius: 10px;
+}
+.fotomeline img{
+    width: 200px;
+    margin-left: 40%;
+    margin-top: 10px;
+    border-radius: 10px;
+
+}
