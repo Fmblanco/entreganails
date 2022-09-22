@@ -204,5 +204,12 @@ p{
     margin-left: 40%;
     margin-top: 10px;
     border-radius: 10px;
-
+}
+.botregi{
+    text-decoration: none;
+    color: grey;
+}
+.botregi:hover{
+    text-decoration: none;
+    color:white;
 }
