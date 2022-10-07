@@ -1,0 +1,45 @@
+$medida: 300px;
+$alto: auto;
+$borde: 20px;
+
+
+.contenedorFotos{
+    margin: 10px auto;
+    width: 75%;
+    height: $alto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: center;
+        .fotos{
+        position: relative;
+        text-align: center;
+        color: white;  
+        font-size: 30px;
+        flex-direction: row;
+        margin: 5px;
+        opacity: .6;
+        &:hover{
+            opacity: 1;
+            transform: scale(1.2, 1.2);
+            }
+            img{
+            border-radius: $borde;
+            width: $medida;
+            height: $alto;
+            }
+            .ft{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                background-color: rgba(128, 128, 128, 0.401);
+            }
+        }
+
+}
+
+
+
+
+

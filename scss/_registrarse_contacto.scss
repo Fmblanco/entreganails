@@ -1,0 +1,18 @@
+$gris:rgb(75, 70, 70);
+$fondoform: rgba(255, 192, 203, 0.322);
+
+.formturnos{
+    border-radius: 10px;
+    background-color: $fondoform;
+    padding: 40px 30px 50px;
+    box-shadow: 1px -1px 15px -4px rgba(0, 0, 0, 0.75);
+    color: $gris;
+}
+.botregi{
+    text-decoration: none;
+    color: $gris;
+    &:hover{
+    color:white;
+    text-decoration: none;  
+    }
+}

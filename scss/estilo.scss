@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+$rositah: rgb(233, 134, 191);
+$rositamenu: rgba(232, 82, 210, 0.88);
+$gris:rgb(75, 70, 70);
+$ancho: 100px;
+$title-font: 5rem, 'Carrois Gothic', sans-serif;
+
+@import "header";
+@import "footer";
+@import "turnos";
+@import "sucursales";
+@import "servicios";
+@import "registrarse_contacto";
+
+body{
+    background-image: url(../Assets/Img/fondooooo.webp);
+    font-family:$title-font;
+}
+
+.sectionindex{
+    background-image: url(../Assets/Img/Fondoprinc.jpeg);
+    height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+}
+.sectionindex2{
+    margin: 10px;
+    padding: 20px;
+    h1{
+        color:$rositah;
+    }
+    p{
+        font-weight: bold;
+        font-size: 20px;
+        margin-left: 50px;
+        color: $gris;
+    }
+}
+.fotoopi{ 
+    text-align: center;
+    img{
+    width: ($ancho+100px);
+    border-radius: 10px;
+    }
+}
+.fotomeline{
+    text-align: center;
+    margin-top: 5px;
+    img{
+    width: ($ancho+100px);
+    border-radius: 10px;
+    }
+}
+.wp{
+    position: fixed;
+    margin: 20px;
+    right: 0;
+    bottom: 0;
+    .Whatsapp{
+    width: 50px;
+    height: auto;
+    }
+}
+

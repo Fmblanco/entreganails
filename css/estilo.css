@@ -1,215 +1,144 @@
-*{
-    margin: 0%;
-    padding: 0;
-    box-sizing: border-box;
-}
-h1,h2,h3,h4{
-    color: rgb(233, 134, 191);
-    font-family:'Carrois Gothic', sans-serif;
-    padding: 20px;
-    text-align: center;
-}
-body{
-    background-image: url(../Assets/Img/fondooooo.webp);
-    font-family: 'Carrois Gothic', sans-serif;
-}
-h3{
-    font-size: 2.2rem;
-}
-#top{
-    text-align: center;
-}
-.logoWF{
-    display: flex;
-    justify-content: right;
-    margin: 20px;
-}
-.logo{
-    height: 80px;
-    margin-top: 5px;
-    width: auto;
-    border-radius: 40%;
-    border: 0.3px;
-}
-/* nav{
-    text-align: center;
-} */
-/* .menuN{
-    font-family: 'Carrois Gothic', sans-serif;
-    border-radius: 20px;
-    list-style-type: none;
-    background-color: rgba(231, 138, 212, 0.585);
-    display: flex;
-    justify-content: center;
-    padding: 0px;
-}
-.menuN .item{
-    font-size: 1rem;
-    text-align: center;
-    margin: 5px;
-}
-.menuN .item a{
-    color: white;
-    text-decoration: none;
-    font-weight: bolder;
-}
-.menuN .item a:hover{
-    color:white
-}
-.menuN .item:hover .submenu{
-    color: white */
-.menuN .item:hover a{
-    background-color: rgba(232, 82, 210, 0.88);
-    color: white;
-    border-radius: 20px;
-}
-.sectionindex{
-    background-image: url(../Assets/Img/Fondoprinc.jpeg);
-    height: 800px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    padding: 20px;
-}
-.sectionindex2{
-    margin: 10px;
-}
-.section3{
-    margin: 10px;
-}
-.wp{
-    position: fixed;
-    margin: 20px;
-    right: 0;
-    bottom: 0;
-}
-.Whatsapp{
-    width: 50px;
-    height: auto;
-}
-.redes{
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+header .logoWF {
+  display: flex;
+  justify-content: right;
+  margin: 20px; }
+
+header .logo {
+  height: 80px;
+  width: auto;
+  margin-top: 5px;
+  border-radius: 40%;
+  border: 0.3px; }
+
+header .item:hover {
+  background-color: rgba(232, 82, 210, 0.88);
+  color: white;
+  border-radius: 20px; }
+
+h1, h2, h3 {
+  color: #e986bf;
+  font: 5rem, "Carrois Gothic", sans-serif;
+  padding: 20px;
+  text-align: center; }
+
+footer .redes {
+  position: relative;
+  text-align: center; }
+
+footer .icon-redes {
+  width: 50px;
+  height: auto; }
+
+.formturnos {
+  border-radius: 10px;
+  background-color: rgba(255, 192, 203, 0.322);
+  padding: 40px 30px 50px;
+  box-shadow: 1px -1px 15px -4px rgba(0, 0, 0, 0.75);
+  color: #4b4646; }
+
+.botregi a {
+  text-decoration: none;
+  color: grey; }
+  .botregi a:hover {
+    color: white; }
+  .botregi a:visited {
+    color: violet; }
+
+.mapa {
+  height: 500px;
+  width: 500px; }
+
+.contenedorFotos {
+  margin: 10px auto;
+  width: 75%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: center; }
+  .contenedorFotos .fotos {
     position: relative;
     text-align: center;
-}
-.icon-redes{
-    width: 50px;
-    height: auto;
-}
-input, textarea, select{
-    font: 1rem sans-serif;
-    width: 300px;
-}
-textarea{
-    vertical-align: top;
-    height: 5rem;
-}
-fieldset{
-    border-radius: 10px;
-    margin: auto;
-}
-p{
-    padding: 30px;
-    font-family: 'Carrois Gothic', sans-serif;
-}
-.semipermanente img{
-    width: 300px;
-    margin: 100px;
-    margin-bottom: 500px;
-    border-radius: 20px;
-}
-.textosemi{
-    display: flex;
-    flex-direction: right top;
-    margin-bottom: 30px;
-}
-.kapping img{
-    width: 300px;
-    margin: 100px;
-    border-radius: 20px;
-}
-.esculpidas img{
-    width: 300px;
-    margin: 100px;
-    border-radius: 20px;
-    margin-top: 100px;
-}
-.nailart img{
-    width: 300px;
-    margin: 100px;
-    border-radius: 20px;
-}
-textarea{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.fotos{
-    position: relative;
-    text-align: center;
-    color: white;  
+    color: white;
     font-size: 30px;
     flex-direction: row;
     margin: 5px;
-}
-.fotos img{
-    border-radius: 20px;
-    width: 300px;
-    height: auto;
-}
-.ft{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(128, 128, 128, 0.401);
-}
-.contenedorFotos{
-    margin: 10px auto;
-    width: 75%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    justify-content: center;
-}
-.fotos{
-    opacity: .6;
-}
-.fotos:hover{
-    opacity: 1;
-    transform: scale(1.2, 1.2);
-}
-.formturnos{
-    border-radius: 10px;
-    background-color: rgba(255, 192, 203, 0.322);
-    padding: 40px 30px 50px;
-    box-shadow: 1px -1px 15px -4px rgb(0 0 0 / 75%);
-    color: gray;
-}
-p{
-    color: gray ;
-}
-.mapa{
-    width: 500px;
-    height: 500px;
-}
-.fotoopi img{
+    opacity: .6; }
+    .contenedorFotos .fotos:hover {
+      opacity: 1;
+      transform: scale(1.2, 1.2); }
+    .contenedorFotos .fotos img {
+      border-radius: 20px;
+      width: 300px;
+      height: auto; }
+    .contenedorFotos .fotos .ft {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background-color: rgba(128, 128, 128, 0.401); }
+
+.formturnos {
+  border-radius: 10px;
+  background-color: rgba(255, 192, 203, 0.322);
+  padding: 40px 30px 50px;
+  box-shadow: 1px -1px 15px -4px rgba(0, 0, 0, 0.75);
+  color: #4b4646; }
+
+.botregi {
+  text-decoration: none;
+  color: #4b4646; }
+  .botregi:hover {
+    color: white;
+    text-decoration: none; }
+
+body {
+  background-image: url(../Assets/Img/fondooooo.webp);
+  font-family: 5rem, "Carrois Gothic", sans-serif; }
+
+.sectionindex {
+  background-image: url(../Assets/Img/Fondoprinc.jpeg);
+  height: 800px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 20px; }
+
+.sectionindex2 {
+  margin: 10px;
+  padding: 20px; }
+  .sectionindex2 h1 {
+    color: #e986bf; }
+  .sectionindex2 p {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 50px;
+    color: #4b4646; }
+
+.fotoopi {
+  text-align: center; }
+  .fotoopi img {
     width: 200px;
-    margin-left:40%;
-    border-radius: 10px;
-}
-.fotomeline img{
+    border-radius: 10px; }
+
+.fotomeline {
+  text-align: center;
+  margin-top: 5px; }
+  .fotomeline img {
     width: 200px;
-    margin-left: 40%;
-    margin-top: 10px;
-    border-radius: 10px;
-}
-.botregi{
-    text-decoration: none;
-    color: grey;
-}
-.botregi:hover{
-    text-decoration: none;
-    color:white;
-}
+    border-radius: 10px; }
+
+.wp {
+  position: fixed;
+  margin: 20px;
+  right: 0;
+  bottom: 0; }
+  .wp .Whatsapp {
+    width: 50px;
+    height: auto; }

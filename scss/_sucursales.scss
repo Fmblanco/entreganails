@@ -1,0 +1,7 @@
+@mixin sizes ($width, $height) {
+        height: $height;
+        width: $width;
+    }
+.mapa{
+    @include sizes(500px, 500px );
+}
