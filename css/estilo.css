@@ -50,8 +50,20 @@ footer .icon-redes {
     color: violet; }
 
 .mapa {
-  height: 500px;
-  width: 500px; }
+  height: 350px;
+  width: 350px;
+  border-radius: 20px; }
+
+.colu {
+  margin-top: 50px;
+  font-size: 1.3rem;
+  text-align: center; }
+
+@media screen and (min-width: 780px) {
+  .nuevocolu {
+    margin-left: 200px; }
+  .nuevocolu1 {
+    margin-right: 200px; } }
 
 .contenedorFotos {
   margin: 10px auto;
