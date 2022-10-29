@@ -15,10 +15,9 @@ header .logo {
   border-radius: 40%;
   border: 0.3px; }
 
-header .item:hover {
-  background-color: rgba(232, 82, 210, 0.88);
-  color: white;
-  border-radius: 20px; }
+header .item a:hover {
+  text-decoration: underline;
+  color: black; }
 
 h1, h2, h3 {
   color: #e986bf;
