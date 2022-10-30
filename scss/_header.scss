@@ -14,13 +14,13 @@ header{
     .item a{
         &:hover{
             text-decoration: underline;
-            color: $negromenu;
+            color:  rgb(255, 179, 179);
         }
     }
 }
 
 h1,h2,h3{
-    color: $rositah;
+    color: $negromenu;
     font: $title-font;
     padding: 20px;
     text-align: center;

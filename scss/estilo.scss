@@ -3,10 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-$rositah: rgb(233, 134, 191);
+
 $negromenu: black;
 $gris:rgb(75, 70, 70);
-$ancho: 100px;
+$ancho: 50px;
 $title-font: 5rem, 'Carrois Gothic', sans-serif;
 
 @import "header";
@@ -34,7 +34,7 @@ body{
     margin: 10px;
     padding: 20px;
     h1{
-        color:$rositah;
+        color:$negromenu;
     }
     p{
         font-weight: bold;
@@ -46,15 +46,15 @@ body{
 .fotoopi{ 
     text-align: center;
     img{
-    width: ($ancho+100px);
+    width: ($ancho+50px);
     border-radius: 10px;
     }
 }
 .fotomeline{
     text-align: center;
-    margin-top: 5px;
+    margin-top: 10px;
     img{
-    width: ($ancho+100px);
+    width: ($ancho+50px);
     border-radius: 10px;
     }
 }
